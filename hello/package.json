@@ -1,0 +1,29 @@
+{
+    "name": "com.example.hello",
+    "displayName": "HelloWorld",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-browser": "^5.0.4",
+        "cordova-plugin-googleplus": "7.0.0",
+        "cordova-plugin-whitelist": "^1.3.3"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-googleplus": {
+                "REVERSED_CLIENT_ID": "com.googleusercontent.apps.392770524092-m4ko9442athoqt7vsjulu03trpvodb6u",
+                "WEB_APPLICATION_CLIENT_ID": "392770524092-m4ko9442athoqt7vsjulu03trpvodb6u.apps.googleusercontent.com"
+            }
+        },
+        "platforms": [
+            "browser"
+        ]
+    }
+}

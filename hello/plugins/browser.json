@@ -1,0 +1,19 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-plugin-googleplus": {
+      "WEB_APPLICATION_CLIENT_ID": "392770524092-m4ko9442athoqt7vsjulu03trpvodb6u.apps.googleusercontent.com",
+      "PACKAGE_NAME": "com.example.hello"
+    }
+  },
+  "dependent_plugins": {}
+}
